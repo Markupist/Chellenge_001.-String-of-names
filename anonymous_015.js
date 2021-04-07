@@ -1,10 +1,3 @@
-arrName = [
-  { name: 'Lisa' },
-  { name: 'Bart' },
-  { name: 'Maggie' },
-  { name: 'Masha' },
-];
-
 function method(arr) {
   let finalString = '';
   for (const i in arr) {
@@ -14,5 +7,3 @@ function method(arr) {
   }
   return finalString;
 }
-
-console.log(method(arrName));

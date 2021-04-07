@@ -1,11 +1,3 @@
-arr_name = [
-    {"name": "Lisa"},
-    {"name": "Bart"},
-    {"name": "Maggie"},
-    {"name": "Masha"}
-]
-
-
 def method(arr=[]):
     names=[]
     finalString=''
@@ -15,6 +7,3 @@ def method(arr=[]):
     for name in names:
       finalString+=name+', '
     return endName if len(names)==0 else finalString.removesuffix(', ')+'&'+endName
-
-
-print(method(arr_name))

@@ -1,10 +1,3 @@
-arrName = [
-  { name: 'Lisa' },
-  { name: 'Bart' },
-  { name: 'Maggie' },
-  { name: 'Masha' },
-];
-
 function method(arr) {
   let names = arr.map((i) => i.name);
   names.length > 1
@@ -12,5 +5,3 @@ function method(arr) {
     : (names = names.join(''));
   return names;
 }
-
-console.log(method(arrName));

@@ -1,5 +1,3 @@
-let arr2 = [];
-
 function method(array) {
     let ar = [];
     array.forEach(item => ar.push(item.name));
