@@ -7,6 +7,7 @@ function method(arr) {
         .split('  ')
         .reverse()
         .join('')
-        .reverse('&', '&')
+        .replace('&', '&')
     return names;
 }
+
