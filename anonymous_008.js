@@ -1,0 +1,1 @@
+let b = a1.reduce((acc, cVal, index) => acc += acc ? ((index < a1.length - 1 ? ", " : " & ") + cVal) : cVal, "")
