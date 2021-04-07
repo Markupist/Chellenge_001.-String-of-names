@@ -1,4 +1,4 @@
-function ConvertNames(names) {
+function method(names) {
     let lastName = names.pop()
     if (names.length === 0) {
         return lastName;

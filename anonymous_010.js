@@ -1,4 +1,4 @@
-function joinNames(items) {
+function method(items) {
     let names = items.map(el => el.name)
     if (names.length == 1) {
         return names[0]

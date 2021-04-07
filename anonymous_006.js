@@ -1,6 +1,6 @@
 let arr2 = [];
 
-function namesAnd(array) {
+function method(array) {
     let ar = [];
     array.forEach(item => ar.push(item.name));
     if (array.length >= 3) {
