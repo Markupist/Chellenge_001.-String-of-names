@@ -1,10 +1,5 @@
-def names(list)
-    list.map { |i| i[:name]}
-end
-
-def inComma(list)
-    list.join ", "
-end
+def names(list) list.map { |i| i[:name] } end
+def inComma(list) list.join ", " end
 
 def format(list)
     last = list.pop
